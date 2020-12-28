@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "baseUrl": "pages",
+    "jsx": "preserve"
+  },
+  "include": ["pages"]
+}
