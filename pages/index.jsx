@@ -48,10 +48,10 @@ const Home = () => {
           L'Association
         </Heading>
         <Text mt={2}>
-          Créée le 23 décembre 2020 a la suite du Joy'sTic (tournois en ligne sur Super Smash Bros Ultimate),
-          Joystick est une association a but non lucratif ayant pour but l'organisation d'évènements e-sportifs
+          Créée le 23 décembre 2020 à la suite du Joy'sTic (tournoi en ligne sur Super Smash Bros Ultimate),
+          Joystick est une association à but non lucratif ayant pour but l'organisation d'évènements e-sportifs
           en France. Notre ambition est de développer la scène e-sportive localement, en organisant différents
-          évènements tel que des tournois, des sessions ouvertes et en proposant diverses activités en association
+          évènements tels que des tournois, des sessions ouvertes et en proposant diverses activités en association
           avec d'autres acteurs des communautés e-sportives existantes.
         </Text>
         <SimpleGrid mt={8} columns={[1, 1, 2, 2]} spacing={8}>
@@ -66,7 +66,7 @@ const Home = () => {
               avec 800 spectateurs uniques sur live de 7h sur la chaîne de Tic, président de l'association.
               Le live consistant a commenter de manière professionnelle l'évènement en étant regroupé au studio
               de notre partenaire, le Stormwin de Rouen, sponsorisant l'évènement et nous aidant sur la partie
-              montage financier du tournois.
+              montage financier du tournoi.
             </Text>
             <Flex>
               <Button
@@ -102,7 +102,7 @@ const Home = () => {
               Cet évènement a pu être organisé par le travail acharné de notre équipe,
               de Reveal Agency qui nous a accompagné sur la production et la régie de
               tout l'évènement ainsi que le BearStudio, qui a sponsorisé l'évènement à
-              hauteur de 500€, entièrement reversé pour le top 8 du tournois.
+              hauteur de 500€, entièrement reversé pour le top 8 du tournoi.
             </Text>
             <Flex>
               <Button
@@ -127,7 +127,7 @@ const Home = () => {
               </Button>
             </Flex>
           </Flex>
-          <Flex order={[1, 1, 2, 2]}><Image objectFit="cover" borderRadius={4} src="smashgg.jpg" alt="Affiche Joy'sTic, tournois SSBU" /></Flex>
+          <Flex order={[1, 1, 2, 2]}><Image objectFit="cover" borderRadius={4} src="smashgg.jpg" alt="Affiche Joy'sTic, tournoi SSBU" /></Flex>
         </SimpleGrid>
         <Box mx={['3rem', '4rem', '8rem', '12rem', '15rem']} as="hr" mb={8} mt={12} />
         <Flex flexDir="column" alignItems="flex-start">
@@ -135,12 +135,12 @@ const Home = () => {
             Partenariat
           </Heading>
           <Text mt={2}>
-            Notre association naissante est composé aujourd'hui de 7 membres actifs. Nous mettons
-            tout en oeuvre pour pouvoir proposer des évènements digne de ce nom d'ici peu.
+            Notre association naissante est composée aujourd'hui de 7 membres actifs. Nous mettons
+            tout en oeuvre pour pouvoir proposer des évènements dignes de ce nom d'ici peu.
             Pour pouvoir proposer des évènements qualitatifs, nous avons besoin de moyens matériels
             et financiers. C'est pourquoi nous recherchons activement des partenaires et des sponsors
-            qui nous permettrait d'organiser toujours plus d'évènements, en mettant bien entendu en avant
-            les divers entités qui auront choisis de nous suivre.
+            qui nous permettraient d'organiser toujours plus d'évènements, en mettant bien entendu en avant
+            les diverses entités qui auront choisis de nous suivre.
           </Text>
           <Text w="100%" textAlign="center" fontWeight="bold" mt={4}>
             Pour toute question ou renseignement, nous sommes disponibles par mail ou par téléphone au 0603018079.
