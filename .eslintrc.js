@@ -19,7 +19,7 @@ module.exports = {
   ],
   rules: {
     'import/prefer-default-export': 'off',
-    'import/no-unresolved': 'warn',
+    'import/no-unresolved': 'off',
     'react/jsx-props-no-spreading': 'off',
     'react/no-unescaped-entities': 'off',
     'max-len': ['warn', { code: 160 }],
