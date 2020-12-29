@@ -55,7 +55,9 @@ const Home = () => {
             avec d'autres acteurs des communautés e-sportives existantes.
           </Text>
           <SimpleGrid mt={8} columns={[1, 1, 2, 2]} spacing={8}>
-            <Flex><Image objectFit="cover" borderRadius={4} src="joystic1.jpg" alt="Photo des organisateurs du Joy'sTic" /></Flex>
+            <Flex>
+              <Image objectFit="cover" maxH="20rem" borderRadius={4} src="joystic1.jpg" alt="Photo des organisateurs du Joy'sTic" />
+            </Flex>
             <Flex flexDir="column" justifyContent="center" alignItems="center">
               <Heading as="h3" size="md" textAlign="center">
                 Joy'sTic évènement 128 joueurs en ligne
@@ -127,7 +129,9 @@ const Home = () => {
                 </Button>
               </Flex>
             </Flex>
-            <Flex order={[1, 1, 2, 2]}><Image objectFit="cover" borderRadius={4} src="smashgg.jpg" alt="Affiche Joy'sTic, tournoi SSBU" /></Flex>
+            <Flex order={[1, 1, 2, 2]}>
+              <Image objectFit="cover" maxH="20rem" borderRadius={4} src="smashgg.jpg" alt="Affiche Joy'sTic, tournoi SSBU" />
+            </Flex>
           </SimpleGrid>
           <Box mx={['3rem', '4rem', '8rem', '12rem', '15rem']} as="hr" mb={8} mt={12} />
           <Flex flexDir="column" alignItems="flex-start">

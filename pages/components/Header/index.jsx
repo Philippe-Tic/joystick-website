@@ -12,7 +12,7 @@ const Header = () => {
 
   const toggleMenu = () => {
     if (menuDisplay === 'none') {
-      setMenuDisplay('flex');
+      setMenuDisplay('block');
     } else {
       setMenuDisplay('none');
     }
@@ -29,10 +29,10 @@ const Header = () => {
         borderBottom={`1px solid ${colorMode === 'dark' ? theme.colors.brand[200] : theme.colors.brand[500]}`}
         h="100%"
         w="100%"
-        justifyContent="space-between"
+        justifyContent="flex-start"
         alignItems="center"
       >
-        <Flex w={['100%', '100%', '100%', 'auto']} justifyContent="space-between" alignItems="center">
+        <Flex minH="100%" w={['100%', '100%', '100%', 'auto']} justifyContent="space-between" alignItems="center">
           <Link href="/">
             <ChakraLink
               d="flex"
@@ -42,11 +42,11 @@ const Header = () => {
                 w={32}
                 h={20}
                 src={colorMode === 'dark' ? '/logowhite.svg' : '/logoblack.svg'}
-                alt="Logo"
+                alt="ogo"
               />
             </ChakraLink>
           </Link>
-          <Flex>
+          <Flex alignItems="center">
             <IconButton
               display={['inline-block', 'inline-block', 'inline-block', 'none']}
               w={10}
