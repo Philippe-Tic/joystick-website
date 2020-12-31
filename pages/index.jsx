@@ -55,7 +55,7 @@ const Home = () => {
             avec d'autres acteurs des communautés e-sportives existantes.
           </Text>
           <SimpleGrid mt={8} columns={[1, 1, 2, 2]} spacing={8}>
-            <Flex>
+            <Flex justifyContent="center">
               <Image objectFit="cover" maxH="20rem" borderRadius={4} src="joystic1.jpg" alt="Photo des organisateurs du Joy'sTic" />
             </Flex>
             <Flex flexDir="column" justifyContent="center" alignItems="center">
@@ -129,7 +129,7 @@ const Home = () => {
                 </Button>
               </Flex>
             </Flex>
-            <Flex order={[1, 1, 2, 2]}>
+            <Flex justifyContent="center" order={[1, 1, 2, 2]}>
               <Image objectFit="cover" maxH="20rem" borderRadius={4} src="smashgg.jpg" alt="Affiche Joy'sTic, tournoi SSBU" />
             </Flex>
           </SimpleGrid>
