@@ -47,7 +47,7 @@ const Footer = () => {
           />
           <IconButton
             as="a"
-            href="https://twitch.tv/tic_gg"
+            href="https://twitch.tv/joystick_asso"
             target="_blank"
             w={10}
             h={10}
