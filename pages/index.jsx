@@ -1,7 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import {
-  useColorMode, Box, Image, Heading, Text, Flex, SimpleGrid, Button,
+  useColorMode, Box, Image, Heading, Text, Flex, SimpleGrid, Button, Link,
 } from '@chakra-ui/react';
 import Header from 'components/Header';
 import Main from 'components/Main';
@@ -136,7 +136,7 @@ const Home = () => {
           <Box mx={['3rem', '4rem', '8rem', '12rem', '15rem']} as="hr" mb={8} mt={12} />
           <Flex flexDir="column" alignItems="flex-start">
             <Heading id="partenariat" as="h2" size="lg">
-              Partenariat
+              Demande de Partenariat
             </Heading>
             <Text mt={2}>
               Notre association naissante est composée aujourd'hui de 7 membres actifs. Nous mettons
@@ -154,7 +154,7 @@ const Home = () => {
             </Flex>
           </Flex>
           <Box mx={['3rem', '4rem', '8rem', '12rem', '15rem']} as="hr" my={12} />
-          <Flex flexDir="column" alignItems="flex-start">
+          <Flex flexDir="column" alignItems="flex-start" my={12}>
             <Heading id="reseaux" as="h2" size="lg">
               Nos réseaux
             </Heading>
@@ -175,6 +175,19 @@ const Home = () => {
                 <Box as={FaYoutube} mr={4} />
                 Youtube
               </Button>
+            </Flex>
+          </Flex>
+          <Flex flexDir="column" alignItems="flex-start">
+            <Heading id="partenariat" as="h2" size="lg">
+              Nos Partenaires
+            </Heading>
+            <Flex mt={2} w="100%" justifyContent="space-between">
+              <Link d="flex" alignItems="center" justifyContent="center" href="https://bearstudio.fr/" target="_blank" w="100%">
+                <Image maxW="14rem" src="/bearstudio.svg" alt="Logo Bearstudio" />
+              </Link>
+              <Link d="flex" alignItems="center" justifyContent="center" href="https://ldlc.com/" target="_blank" w="100%">
+                <Image maxW="9rem" src="/ldlc.svg" alt="Logo LDLC" />
+              </Link>
             </Flex>
           </Flex>
         </Main>
