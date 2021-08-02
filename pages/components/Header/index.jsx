@@ -92,13 +92,19 @@ const Header = () => {
 
           <ChakraLink w={['100%', '100%', '100%', 'auto']} href="#partenariat" mx={4}>
             <ListItem fontWeight="bold" p={4}>
-              Partenariat
+              Demande de Partenariat
             </ListItem>
           </ChakraLink>
 
           <ChakraLink w={['100%', '100%', '100%', 'auto']} href="#reseaux" mx={4}>
             <ListItem fontWeight="bold" p={4}>
               Nos Réseaux
+            </ListItem>
+          </ChakraLink>
+
+          <ChakraLink w={['100%', '100%', '100%', 'auto']} href="#partenaires" mx={4}>
+            <ListItem fontWeight="bold" p={4}>
+              Nos Partenaires
             </ListItem>
           </ChakraLink>
 

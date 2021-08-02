@@ -178,7 +178,7 @@ const Home = () => {
             </Flex>
           </Flex>
           <Flex flexDir="column" alignItems="flex-start">
-            <Heading id="partenariat" as="h2" size="lg">
+            <Heading id="partenaires" as="h2" size="lg">
               Nos Partenaires
             </Heading>
             <Flex mt={2} w="100%" justifyContent="space-between">
