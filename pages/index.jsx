@@ -167,7 +167,7 @@ const Home = () => {
                 <Box as={FaTwitter} mr={4} />
                 Twitter
               </Button>
-              <Button target="_blank" colorScheme="purple" as="a" href="https://twitch.tv/tic_gg">
+              <Button target="_blank" colorScheme="purple" as="a" href="https://twitch.tv/Joystick_Asso">
                 <Box as={FaTwitch} mr={4} />
                 Twitch
               </Button>
