@@ -183,10 +183,10 @@ const Home = () => {
             </Heading>
             <Flex mt={2} w="100%" justifyContent="space-between">
               <Link d="flex" alignItems="center" justifyContent="center" href="https://bearstudio.fr/" target="_blank" w="100%">
-                <Image maxW="14rem" src="/bearstudio.svg" alt="Logo Bearstudio" />
+                <Image maxW="14rem" src={colorMode === 'dark' ? '/bearstudio.svg' : '/bearstudio-dark.svg'} alt="Logo Bearstudio" />
               </Link>
               <Link d="flex" alignItems="center" justifyContent="center" href="https://ldlc.com/" target="_blank" w="100%">
-                <Image maxW="9rem" src="/ldlc.svg" alt="Logo LDLC" />
+                <Image maxW="9rem" src={colorMode === 'dark' ? '/ldlc.svg' : '/ldlc-dark.svg'} alt="Logo LDLC" />
               </Link>
             </Flex>
           </Flex>
